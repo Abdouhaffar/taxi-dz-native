@@ -20,3 +20,20 @@
     }
   }
 }
+{
+  "expo": {
+    "name": "TaxiDZ",
+    "slug": "taxi-dz-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.taxidz.app",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ضع_هنا_project_id_من_expo"
+      }
+    }
+  }
+}
