@@ -3,21 +3,13 @@
     "version": ">= 5.9.1"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "preview": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
       },
-      "distribution": "internal"
-    },
-    "production": {
-      "distribution": "store"
+      "distribution": "internal",
+      "channel": "preview"
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
