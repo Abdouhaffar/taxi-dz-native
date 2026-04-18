@@ -6,10 +6,9 @@
     "preview": {
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
+        "credentialsSource": "remote"
       },
-      "distribution": "internal",
-      "channel": "preview"
+      "distribution": "internal"
     }
   }
 }
