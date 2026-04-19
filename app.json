@@ -4,12 +4,10 @@
     "slug": "taxi-dz-native",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "taxidz",
     "android": {
       "package": "com.taxidz.app",
-      "versionCode": 1,
-      "adaptiveIcon": {
-        "backgroundColor": "#1a1a2e"
-      }
+      "versionCode": 1
     },
     "extra": {
       "eas": {
