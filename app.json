@@ -1,25 +1,3 @@
-
-{
-  "expo": {
-    "name": "TaxiDZ",
-    "slug": "taxi-dz-native",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "backgroundColor": "#1a1a2e"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#1a1a2e"
-      },
-      "package": "com.taxidz.app"
-    },
-    "ios": {
-      "bundleIdentifier": "com.taxidz.app"
-    }
-  }
-}
 {
   "expo": {
     "name": "TaxiDZ",
@@ -29,11 +7,6 @@
     "android": {
       "package": "com.taxidz.app",
       "versionCode": 1
-    },
-    "extra": {
-      "eas": {
-        "projectId": "ضع_هنا_project_id_من_expo"
-      }
     }
   }
 }
