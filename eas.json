@@ -1,19 +1,13 @@
 {
-  "expo": {
-    "name": "TaxiDZ",
-    "slug": "taxi-dz-native",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "scheme": "taxidz",
-    "android": {
-      "package": "com.taxidz.app",
-      "versionCode": 1
-    },
-    "extra": {
-      "eas": {
-        "projectId": "0c4e2ff3-6dc8-4ce2-9ca7-a71293e384a8"
+  "cli": {
+    "version": ">= 7.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
       }
-    },
-    "owner": "abdouhaffar55"
+    }
   }
 }
