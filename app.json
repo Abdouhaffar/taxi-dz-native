@@ -1,11 +1,14 @@
 {
-  "cli": {
-    "version": ">= 5.9.1"
-  },
-  "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk"
+  "expo": {
+    "name": "TaxiDZ",
+    "slug": "taxi-dz-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.taxidz.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e"
       }
     }
   }
